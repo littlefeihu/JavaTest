@@ -10,8 +10,13 @@ public class Main {
 
     public static void main(String[] args) {
 
+        try {
+            IOHelper.InputStreamWrite();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
 
-        XMLHelper.ParseXml();
+        //XMLHelper.ParseXml();
 
         //SqlHelper.Conn();
 
