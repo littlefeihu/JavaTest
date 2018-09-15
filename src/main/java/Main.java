@@ -11,12 +11,14 @@ public class Main {
     public static void main(String[] args) {
 
 
-        SqlHelper.Conn();
+        XMLHelper.ParseXml();
 
-        System.out.print("start download");
+        //SqlHelper.Conn();
+
+       // System.out.print("start download");
         //NetHelper.DownloadImg("https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1536857673789&di=28c21cd03fa48bf6d5126391d8249de2&imgtype=0&src=http%3A%2F%2Fimgsrc.baidu.com%2Fimgad%2Fpic%2Fitem%2Fc75c10385343fbf2618015f7ba7eca8064388fb2.jpg");
 
-        System.out.print("end  download");
+       // System.out.print("end  download");
 
       System.out.print("type a char:");
         char i= 0;
